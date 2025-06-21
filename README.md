@@ -24,9 +24,29 @@ This project uses AWS Systems Manager (SSM) to remotely audit and apply security
 
 ## Screenshots
 
-![EC2 Dashboard](Screenshots/ssm_online.png): EC2 instance shown as a managed instance in Systems Manager
-![Patch Scan](Screenshots/run_patch_scan.png): Run Command setup and execution details
-![Compliance Dashboard](Screenshots/compliance_dashboard.png): Showing all compliant resources
+### 1. EC2 Instance Dashboard
+
+Shows the instance with t2.micro and the correct IAM role
+
+![EC2 Dashboard](Screenshots/ssm_online.png)
+
+---
+
+### 2. Patch Scan Dashboard
+
+Shows the patch scan ran successfully
+
+![Patch Scan](Screenshots/run_patch_scan.png)
+
+---
+
+### 3. Compliance Dashboard
+
+Shows all instances are complaint
+
+![Compliance Dashboard](Screenshots/compliance_dashboard.png)
+
+---
 
 ## Further Automation
 
