@@ -50,4 +50,4 @@ Shows all instances are complaint
 
 ## Further Automation
 
-After completing the project through the AWS Console, I recreated the process using the AWS CLI to automate the patch audit entirely through code. Future improvements included scheduled patching using SSM Automation documents such as AWS-ApplyPatchBaseline.
+After completing the project through the AWS Console, I recreated the process using the AWS CLI to automate the patch audit entirely through code. Future improvements included scheduled patching using SSM Automation documents such as AWS-ApplyPatchBaseline. Please see 'ssm_patch_scan.sh' for the full automation script.
